@@ -2,14 +2,14 @@
 
 **Table of Contents**
 
-1. [Overview](http)
-2. [Resources](http)
-3. [Results](http)
-    - [Preprocessing the Data for PCA](http)
-    - [Reducing Data Dimensions Using PCA](http)
-    - [Clustering Cryptocurrencies Using K-means](http)
-    - [Visualizing Cryptocurrencies Results](http)
-4. [Summary](http)
+1. [Overview](https://github.com/catsdata/Cryptocurrencies#overview)
+2. [Resources](https://github.com/catsdata/Cryptocurrencies#resources)
+3. [Results](https://github.com/catsdata/Cryptocurrencies#results)
+    - [Preprocessing the Data for PCA](https://github.com/catsdata/Cryptocurrencies#preprocessing-the-data-for-pca)
+    - [Reducing Data Dimensions Using PCA](https://github.com/catsdata/Cryptocurrencies#reducing-data-dimensions-using-pca)
+    - [Clustering Cryptocurrencies Using K-means](https://github.com/catsdata/Cryptocurrencies#clustering-cryptocurrencies-using-k-means)
+    - [Visualizing Cryptocurrencies Results](https://github.com/catsdata/Cryptocurrencies#visualizing-cryptocurrencies-results)
+4. [Summary](https://github.com/catsdata/Cryptocurrencies#summary)
 
 
 ## Overview
