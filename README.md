@@ -49,11 +49,14 @@ The data Martha will be working with is not ideal, so it will need to be process
 - The get_dummies() method is used to create variables for the text features, which are then stored in a new DataFrame, X
 - The features from the X DataFrame have been standardized using the StandardScaler fit_transform() function
 
+![del1](https://github.com/catsdata/Cryptocurrencies/blob/main/Images/del1.PNG)
+
 ### Reducing Data Dimensions Using PCA
 
 - The PCA algorithm reduces the dimensions of the X DataFrame down to three principal components
 - The pcs_df DataFrame is created and has the following three columns, PC 1, PC 2, and PC 3, and has the index from the crypto_df DataFrame
 
+![del2](https://github.com/catsdata/Cryptocurrencies/blob/main/Images/del2.PNG)
 
 ### Clustering Cryptocurrencies Using K-means
 
@@ -62,6 +65,10 @@ The data Martha will be working with is not ideal, so it will need to be process
     - Predictions are made on the K clusters of the cryptocurrencies’ data
     - A new DataFrame is created with the same index as the crypto_df DataFrame and has the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class
 
+![del3](https://github.com/catsdata/Cryptocurrencies/blob/main/Images/del3.PNG)
+
+![del3_2](https://github.com/catsdata/Cryptocurrencies/blob/main/Images/del3_2.PNG)
+
 ### Visualizing Cryptocurrencies Results
 
 - The clusters are plotted using a 3D scatter plot, and each data point shows the CoinName and Algorithm on hover
@@ -69,6 +76,12 @@ The data Martha will be working with is not ideal, so it will need to be process
 - The total number of tradable cryptocurrencies is printed
 - A DataFrame is created that contains the clustered_df DataFrame index, the scaled data, and the CoinName and Class columns
 - A hvplot scatter plot is created where the X-axis is "TotalCoinsMined", the Y-axis is "TotalCoinSupply", the data is ordered by "Class", and it shows the CoinName when you hover over the data point
+
+![del4](https://github.com/catsdata/Cryptocurrencies/blob/main/Images/del4.PNG)
+
+![del4_2](https://github.com/catsdata/Cryptocurrencies/blob/main/Images/del4_2.PNG)
+
+![del4_3](https://github.com/catsdata/Cryptocurrencies/blob/main/Images/del4_3.PNG)
 
 ## Summary
 
